@@ -20,7 +20,7 @@ together with the current table sorted on elo rating.
 
 The JSON should be on the following format:
 
-'
+`
 [
     {
         "kamp_nr": 1,
@@ -44,4 +44,4 @@ The JSON should be on the following format:
         "dato": "03.01.1970"
     }
 ]
-
+`
