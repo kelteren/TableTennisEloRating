@@ -11,14 +11,15 @@ and recurring playes will have their values updated based on match results.
 Players are differentiated by name and must be unique. A different spelling will result in a new player. And two players cannot have 
 the same name and should be differentiated if so. 
 
-The table tennis matches will always have a winner, but the script will recognise a draw if "winner":"draw". A player should not be named draw.
+The table tennis matches should always have a winner, but the script will recognise a draw if the winner is not one of the players. A convention for indicating that a game ended in a draw would be to set "winner":"draw". 
+Hence a player should not be named draw, nor should the winners name be misspelled.
 
-After successfully processing the list of matches, the development in rating is plotted as a function of time, and plotted in a pdf-report 
-together with the current table sorted on elo rating.
+After successfully processing the list of matches, the development in rating is plotted as a function of time, and plotted in a pdf-report together with the current table sorted by elo rating.
 
 ## Description of JSON
+The matches are stored as a list of matches in a json, where the matches are described with at least the name of the two players and the winner. The winner must be one of the players. The match date is used for plotting rating development and describing statistics in the exported pdf report.
 
-The JSON should be on the following format:
+The JSON containing the matches should be on the following format:
 
 `
 [
