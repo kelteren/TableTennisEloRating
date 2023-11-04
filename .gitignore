@@ -1,14 +1,10 @@
 # project specific
-<<<<<<< HEAD
 *.json
 *.pdf
 *.png
-
-=======
 *.sublime-project
 *.sublime-workspace
 *.json
->>>>>>> origin/main
 
 
 # Byte-compiled / optimized / DLL files
