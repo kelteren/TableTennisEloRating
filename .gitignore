@@ -1,11 +1,10 @@
-# project specific
+# project specific ignores
 *.json
 *.pdf
-*.png
 *.sublime-project
 *.sublime-workspace
 *.json
-
+elo_rating.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
