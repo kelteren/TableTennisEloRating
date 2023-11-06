@@ -1,5 +1,7 @@
 # TableTennisEloRating
-Script for managing a table tennis table based on conventional ELO-rating
+Script for managing a table tennis table based on conventional ELO-rating. 
+
+See [main script tableTennisPDFReport.py](tableTennisPDFReport.py)
 
 ## General description
 The script processes a list of matches. The matches are read from a json containing a list of matches, where each match describe
