@@ -21,7 +21,7 @@ The matches are stored as a list of matches in a json, where the matches are des
 
 The JSON containing the matches should be on the following format:
 
-`
+```
 [
     {
         "kamp_nr": 1,
@@ -45,4 +45,4 @@ The JSON containing the matches should be on the following format:
         "dato": "03.01.1970"
     }
 ]
-`
+```
