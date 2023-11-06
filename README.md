@@ -30,21 +30,21 @@ The JSON containing the matches should be on the following format:
         "player_1": "Alice",
         "player_2": "Bob",
         "winner": "Bob",
-        "dato": "01.01.1970"
+        "date": "01.01.1970"
     },
     {
         "kamp_nr": 2,
         "player_1": "Bob",
         "player_2": "Charlie",
         "winner": "Charlie",
-        "dato": "02.01.1970"
+        "date": "02.01.1970"
     },
     {
         "kamp_nr": 3,
         "player_1": "Charlie",
         "player_2": "Alice",
         "winner": "Alice",
-        "dato": "03.01.1970"
+        "date": "03.01.1970"
     }
 ]
 ```
