@@ -159,7 +159,7 @@ for match in matches:
         player_2_score = 0
         players[player_1]['games_won'] += 1
         players[player_2]['games_lost'] += 1  
-   elif winner == player_2:
+    elif winner == player_2:
         player_1_score = 0
         player_2_score = 1
         players[player_2]['games_won'] += 1
@@ -195,7 +195,7 @@ for match in matches:
 # dictionary of players is sorted on rating before each player is added to the table with
 # the columns name, rating, matches played, matches won and matches lost
 
-t = PrettyTable(['Navn','Rating','Spilt','Vunnet','Tapt'])
+t = PrettyTable(['Name','Rating','Played','Won','Lost'])
 sorted_players = sorted(players.items(), key=lambda x: x[1]['rating'], reverse=True)
 for player, properties in sorted_players:
     t.add_row([player, round(properties["rating"], 0), properties["games_played"], properties["games_won"], properties["games_lost"]])
