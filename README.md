@@ -26,21 +26,21 @@ The JSON containing the matches should be on the following format:
 ```
 [
     {
-        "kamp_nr": 1,
+        "match_no": 1,
         "player_1": "Alice",
         "player_2": "Bob",
         "winner": "Bob",
         "date": "01.01.1970"
     },
     {
-        "kamp_nr": 2,
+        "match_no": 2,
         "player_1": "Bob",
         "player_2": "Charlie",
         "winner": "Charlie",
         "date": "02.01.1970"
     },
     {
-        "kamp_nr": 3,
+        "match_no": 3,
         "player_1": "Charlie",
         "player_2": "Alice",
         "winner": "Alice",
