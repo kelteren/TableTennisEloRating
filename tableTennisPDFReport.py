@@ -79,6 +79,7 @@ def validate_json(json_data):
 #TODO: ADD in case standard file is not found, a dialog will open to let the user specify correct file
 #TODO: ADD add so that filename is collected from *kwargs if this script is run from a command line
 # let the user chose a json file, and reads the list of mathces from json
+# file = 'matches.json'
 file_path = filedialog.askopenfilename(filetypes=(("JSON-files", "*.json"), ("All files", "*.*")))
 
 if file_path:
